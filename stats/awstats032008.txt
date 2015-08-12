@@ -1,0 +1,302 @@
+AWSTATS DATA FILE 6.5 (build 1.857)
+# If you remove this file, all statistics for date 200803 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2533                
+POS_VISITOR 6384                
+POS_DAY 7149                
+POS_DOMAIN 3118                
+POS_LOGIN 3347                
+POS_ROBOT 3502                
+POS_WORMS 3759                
+POS_EMAILSENDER 3890                
+POS_EMAILRECEIVER 4033                
+POS_SESSION 7253                
+POS_SIDER 7420                
+POS_FILETYPES 4168                
+POS_OS 4271                
+POS_BROWSER 4362                
+POS_SCREENSIZE 4473                
+POS_UNKNOWNREFERER 4547                
+POS_UNKNOWNREFERERBROWSER 4766                
+POS_ORIGIN 4980                
+POS_SEREFERRALS 5115                
+POS_PAGEREFS 5280                
+POS_SEARCHWORDS 5550                
+POS_KEYWORDS 5808                
+POS_MISC 2197                
+POS_ERRORS 5970                
+POS_CLUSTER 3203                
+POS_SIDER_404 6058                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20090322014831 1 0 40691673033
+FirstTime 20080301002924
+LastTime 20080302231253
+LastUpdate 20090403045135 1 0 0 0 0
+TotalVisits 18                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 7 44319 0 0 0
+1 0 0 0 1 1 7173
+2 1 1 9838 1 1 510
+3 0 0 0 0 0 0
+4 1 1 6551 3 4 7614
+5 3 15 109845 2 2 9328
+6 1 7 44319 0 0 0
+7 0 0 0 0 0 0
+8 1 1 10872 1 1 510
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 23 29 184416 3 4 8703
+12 0 0 0 2 2 8023
+13 0 0 0 3 3 7571
+14 1 7 44319 4 5 17452
+15 6 29 239281 2 2 510
+16 0 0 0 0 0 0
+17 5 22 202114 0 0 0
+18 1 1 7640 4 4 8081
+19 0 0 0 0 0 0
+20 1 7 44319 2 2 8023
+21 3 15 91977 0 0 0
+22 1 1 7513 3 4 8703
+23 2 12 93919 4 4 17351
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 51 155 1141242
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+crawl 8 28554 20080302222148 0
+slurp 7 56224 20080302232029 0
+jeeves 2 14064 20080302205807 0
+googlebot 1 0 20080302154819 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 51 364300 0 0
+jpg 19 303934 0 0
+gif 85 473008 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 19
+winxp 103
+winlong 12
+win2000 15
+Unknown 6
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 5
+msie6.0 44
+firefox2.0.0.12 12
+Unknown 6
+msie7.0 74
+safari 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Pingdom_GIGRIB_(http://www.pingdom.com) 20080302043153
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20080302183459
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Pingdom_GIGRIB_(http://www.pingdom.com) 20080302043153
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20080302183459
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 29 35
+From1 0 0
+From2 6 6
+From3 3 3
+From4 13 111
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+yahoo 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.pingdom.com/tools/fpt/ 1 1
+http://www.bulldogjobs.com/JobDetails.aspx 1 1
+http://www.flgz.net/sitemap.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+sierra+hr+partner 2
+myriad+human+resource+%26+services+inc 2
+sierra+hr+fresno 1
+sierra+hr+partners+inc. 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 12
+hr 4
+sierra 4
+human 2
+services 2
+inc 2
+%26 2
+resource 2
+myriad 2
+partner 2
+partners 1
+fresno 1
+inc. 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 21 10710
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1
+/robots.txt 21 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+62.209.200.19 21 21 133546 20080302112300
+76.9.64.37 5 22 202114 20080301173710
+72.75.164.175 4 19 179036 20080302151239
+138.163.0.43 3 15 91977 20080301212832
+58.69.202.183 3 15 109845 20080302050653
+67.181.181.21 2 10 60245 20080302150922
+64.34.145.200 2 2 17351 20080301221114
+41.226.226.224 2 12 93919 20080302231253
+98.192.172.229 1 7 44319 20080302110450
+195.229.241.187 1 4 28671 20080301002924
+64.34.145.196 1 1 7640 20080302183459
+64.34.145.195 1 1 6551 20080301115252
+69.225.233.206 1 7 44319 20080302143416
+75.37.62.110 1 7 44319 20080301204444
+209.62.82.14 1 1 6551 20080302043153
+210.5.92.96 1 7 44319 20080301061006
+64.34.145.199 1 1 10872 20080301080612
+213.42.2.24 0 3 15648 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20080301 15 62 461822 9
+20080302 36 93 679420 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+0s-30s 14
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 23
+/ 14 91714 13 8
+/recruit.html 5 48525 0 1
+/our_team.html 4 39352 1 1
+/employmentlaw.html 3 22539 1 1
+/contact.html 3 21519 0 2
+/services.html 2 15280 2 1
+/commitment.html 2 13028 0 1
+/services2.html 2 21744 1 1
+/training.html 2 17636 0 0
+/services_print.html 1 7018 0 1
+/myths.html 1 7822 0 0
+/commitment_print.html 1 2233 0 0
+/hrcs_print.html 1 3542 0 0
+/contact_print.html 1 1587 0 0
+/training2.html 1 7666 0 0
+/training_print.html 1 9149 0 0
+/training3.html 1 7613 0 0
+/our_team_print.html 1 3943 0 0
+/partner_benefits_print.html 1 2206 0 0
+/recruit_print.html 1 4199 0 0
+/updates.html 1 6401 0 1
+/partner_benefits.html 1 6378 0 0
+/myths_print.html 1 3206 0 0
+END_SIDER

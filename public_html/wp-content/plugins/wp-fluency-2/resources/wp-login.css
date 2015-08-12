@@ -1,0 +1,18 @@
+html{background-color:#222;}
+body.login {background-color:#222;border-top:0 none;font-family:"Helvetica","Arial",sans-serif;padding-top:7em;}
+#login {background:#DDD url('images/postbox-bg.gif') repeat-x top left;border:1px solid #FFF;-moz-border-radius:20px;-webkit-border-radius:20px;margin:0 auto 1em;}
+#login form#loginform {background:#F6F6F6;border:1px solid #FFF;margin:10px 10px 0;-moz-border-radius:15px;-webkit-border-radius:15px;}
+#login form#loginform label {font-weight:bold;}
+#login form#loginform #user_login, #login form#loginform #user_email,
+#login form#loginform #user_pass {border:1px solid #CCC;-moz-border-radius:8px;-webkit-border-radius:8px;line-height:30px;font-size:24px;padding:5px;width:255px;margin-top:5px;margin-right:0;font-family:"Helvetica","Arial",sans-serif;}
+#login #login_error {margin:10px;padding:0;text-align:center;font-weight:bold;background:none;border:0 none;color:#900;}
+#login .message {margin:10px;padding:0;text-align:center;font-weight:bold;background:none;border:0 none;color:#333;}
+#login h1 a {background:url('images/wp_login.gif') no-repeat center 15px;width:250px;height:50px;margin:0 auto 10px;}
+#nav {padding:15px 10px;margin:0;text-align:center;font-weight:bold;background:#DDD url('images/fav-gradient.gif') repeat-x scroll left bottom;border:0 none;color:#666;-moz-border-radius-bottomleft:19px;-moz-border-radius-bottomright:19px;-webkit-border-bottom-left-radius:19px;-webkit-border-bottom-right-radius:19px;}
+body.login p#nav a {color:#666 !important;}
+body.login p#nav a:hover {color:#999 !important;}
+#login form .submit input {border-color:#999 !important;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;-moz-border-radius:15px;-webkit-border-radius:11px;padding:3px 15px;margin-top:0;font-family:"Helvetica","Arial",sans-serif;font-weight:bold;color:#333 !important;}
+#login form .submit input:hover, #login form .submit input:active {background:#CCC url('images/fav-gradient.gif') repeat-x scroll left top !important;border-color:#666 !important;color:#333 !important;}
+p.forgetmenot input#rememberme {vertical-align:-2px;}
+.login #backtoblog {width:292px;margin:0 auto;text-align:center;}
+.login #backtoblog a {position:relative;color:#444;left:auto;top:auto;}

@@ -1,0 +1,113 @@
+/***
+CALENDAR ------------------------------------------------------------------------*/
+
+.calendar_wrapLarge {
+  border: 1px solid #bbb;
+  border-top: 0;
+  border-right: 0;
+  padding: 5px;
+  text-align: center !important;
+  background: #fff;
+}
+
+#con #pageContent .calendar_wrapLarge img {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+
+.calendar_wrapLarge h2 {
+  text-align: center !important;
+  margin: 0 auto !important;
+  padding: 20px 0 12px !important;
+  clear: none !important;
+}
+
+.calendar_wrapLarge h2 span.month_title {
+  margin: 0 auto !important;
+  font: bold 15px/18px Arial, Helvetica, sans-serif !important;
+  text-align: center !important;
+  display: block;
+}
+
+.wp-calendarLarge {
+  border: 0px solid black;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.wp-calendarLarge thead tr th {
+  text-align: center;
+  width: 14.28%;
+  margin: 0;
+}
+
+.wp-calendarLarge tbody tr td {
+  vertical-align: top;
+  border: 1px solid #A3B9DC;
+  padding: 3px;
+  margin: 0 !important;
+  height: 74px;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.dayHead {
+  background: #C8D6E7;
+  font-size: 10px;
+  padding-left: 5px;
+  margin-bottom: 3px;
+  color: #2F2714;
+}
+
+.wp-calendarLarge tbody tr td span a {
+  font-size: 10px;
+  line-height: 12px;
+  margin: 0 5px;
+  display: block;
+  padding: 1px 0 1px;
+  border-bottom: 1px dotted #ccc !important;
+}
+
+.wp-calendarLarge tbody tr td br {
+  display: none !important;
+}
+
+.wp-calendarLarge thead tr th span {color: #fff;display: block;background: #2D4478;padding: 5px 0;margin-bottom: 5px;text-transform: uppercase;font-size: 11px;}
+
+.EC_previousMonthLarge, .EC_nextMonthLarge {
+  background: #5575A6;
+  padding: 3px 8px;
+  text-transform: uppercase;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  width: 40px;
+}
+
+.EC_previousMonthLarge {
+  float: left;
+}
+
+.EC_nextMonthLarge {
+  float: right;
+}
+
+
+.todayLarge .dayHead {
+  background: #5575A6;
+  color: #fff;
+}
+
+span.month_title {
+  display: block;
+  height: 45px;
+  clear: none;
+  padding-top: 18px !important;
+  font: bold 24px/24px Times New Roman, serif !important;
+}

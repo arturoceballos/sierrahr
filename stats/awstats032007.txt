@@ -1,0 +1,549 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2007-03 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2535                
+POS_VISITOR 8612                
+POS_DAY 13767               
+POS_DOMAIN 3329                
+POS_LOGIN 3561                
+POS_ROBOT 3716                
+POS_WORMS 4115                
+POS_EMAILSENDER 4246                
+POS_EMAILRECEIVER 4389                
+POS_SESSION 14532               
+POS_SIDER 14740               
+POS_FILETYPES 4524                
+POS_OS 4666                
+POS_BROWSER 4786                
+POS_SCREENSIZE 4988                
+POS_UNKNOWNREFERER 5062                
+POS_UNKNOWNREFERERBROWSER 5459                
+POS_ORIGIN 5827                
+POS_SEREFERRALS 5970                
+POS_PAGEREFS 6178                
+POS_SEARCHWORDS 6875                
+POS_KEYWORDS 7675                
+POS_MISC 2198                
+POS_ERRORS 8165                
+POS_CLUSTER 3417                
+POS_SIDER_404 8269                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20070401003404 1 0 29898457688
+FirstTime 20070301090127
+LastTime 20070331221408
+LastUpdate 20070402025023 1 0 0 0 0
+TotalVisits 170                 
+TotalUnique 117                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 136                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 37 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 9 56174 26 28 102048
+1 4 11 66616 33 33 98357
+2 8 8 53087 51 53 165204
+3 8 24 172886 46 46 134784
+4 5 19 113321 28 28 75762
+5 3 3 16251 48 49 134071
+6 4 4 13569 29 34 160762
+7 4 16 105027 22 23 96908
+8 5 29 175694 55 55 241037
+9 28 149 1142668 45 45 89604
+10 46 121 771636 38 40 138007
+11 25 123 906742 34 34 95487
+12 18 63 453524 26 26 72629
+13 49 232 1482427 33 35 116325
+14 41 170 1021877 25 27 112898
+15 62 145 1079835 36 38 132406
+16 49 169 1114102 45 46 135224
+17 16 54 255787 45 46 142166
+18 23 91 719365 31 31 100858
+19 28 207 630649 49 50 103914
+20 14 49 364761 21 21 53308
+21 7 7 50149 35 36 124010
+22 2 2 16815 46 46 146778
+23 26 65 397849 17 18 84982
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 477 1770 11180811
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+msnbot 183 1440439 20070331220244 0
+slurp 127 622248 20070331172328 0
+googlebot 92 120008 20070331072612 0
+linkwalker 25 164493 20070329085836 0
+jeeves 19 153072 20070330072104 0
+psbot 8 9838 20070325193938 0
+crawl 4 22514 20070325065244 0
+robot 1 0 20070310095225 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 475 3133168 0 0
+jpg 271 3914661 0 0
+Unknown 1 0 0 0
+gif 1022 4116098 0 0
+swf 1 16884 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+winxp 1441
+winnt 10
+win2000 139
+win98 2
+linux 19
+macosx 60
+win2003 11
+Unknown 88
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 11
+msie6.0 962
+firefox1.0.7 4
+konqueror 12
+firefox1.0 3
+firefox2.0.0.3 1
+msie7.0 630
+firefox1.5.0.10 13
+firefox1.5.0.11 7
+msie5.0 10
+Unknown 68
+safari 60
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+- 20070318232159
+MSIE_6.0 20070313105920
+panscient.com 20070325210350
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070331221408
+Factbot_1.09_(see_http://www.factbites.com/webmasters.php) 20070323234656
+BlackBerry8700/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/100 20070328170833
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+- 20070318232159
+panscient.com 20070325210350
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070331221408
+Factbot_1.09_(see_http://www.factbites.com/webmasters.php) 20070323234656
+BlackBerry8700/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/100 20070328170833
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 168 168
+From1 1 1
+From2 54 54
+From3 32 48
+From4 222 1499
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 6
+google 33 33
+search 6 6
+altavista 1 1
+ask 2 2
+yahoo 5 5
+msn 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 14
+http://www.flgz.net 10 10
+http://www.flgz.net/events.html 5 5
+http://www.flgz.net/practice.html 4 4
+http://www.flgz.net/about.html 3 3
+http://www.flgz.net/probono.html 3 3
+http://www.flgz.net/attorneys.html 2 2
+http://www.flgz.net/contact.html 1 1
+http://www.flgz.net/staff.html 1 1
+http://flgz.net/practice.html 1 1
+http://72.14.253.104/search 1 1
+http://www.flg-law.com/human_resource.html 0 9
+http://cc.msnscache.com/cache.aspx 0 1
+http://www.yellowpages.com/sp/yellowpages/ypresults.jsp 1 1
+http://www.flg-law.com/pages/human_resource.html 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 29
+flg+consulting 8
+sierra+hr+partners 6
+sierra+hr+partners+inc. 5
+brenda+budke 3
+flgconsulting.com 3
+fishman+goldring+larsen 2
+sierra+hr+partners+inc%2e 2
+sierra+hr+partners+inc%2e+fresno 2
+559-256-5005+fresno+ca 1
+sierra+hr+partners+inc+in+fresno 1
+defense+of+avoidable+consequences 1
+consequences+of+acd 1
+volvo 1
+bar 1
+sierra+hr+partners+%2d+fresno+ca 1
+adware 1
+flg+consulting+inc 1
+hydrocodone 1
+sierra+hr+association 1
+goldring+cobra 1
+infiniti 1
+flg+fresno 1
+flg+consulting+fresno 1
+dwre 1
+flg+consulting+inc. 1
+www.sierrahr.com 1
+acd+ruling 1
+human+resource+consultants+fresno 1
+organizational+leadership+and+communication+and+outsourcing 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 42
+hr 18
+sierra 18
+partners 17
+flg 12
+consulting 11
+fresno 8
+inc. 6
+inc%2e 4
+budke 3
+goldring 3
+leadership 1
+human 1
+consultants 1
+acd 2
+bar 1
+adware 1
+larsen 2
+in 1
+%2d 1
+ruling 1
+cobra 1
+defense 1
+www.sierrahr.com 1
+and 2
+avoidable 1
+inc 2
+of 2
+flgconsulting.com 3
+559-256-5005 1
+consequences 2
+organizational 1
+brenda 3
+volvo 1
+hydrocodone 1
+association 1
+fishman 2
+outsourcing 1
+ca 2
+resource 1
+infiniti 1
+dwre 1
+communication 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 21 116837
+404 408 208080
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/robots.txt 403 -
+/facts.html 5 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 136
+38.99.203.110 32 32 210258 20070325210350
+65.222.176.125 26 26 169594 20070316170045
+71.130.76.146 21 170 278717 20070327190527
+192.129.3.64 20 20 126500 20070313105920
+209.234.192.220 12 51 208328 20070319103315
+69.106.187.39 12 45 278050 20070322234851
+69.227.87.190 12 67 453869 20070327144327
+66.193.195.118 12 40 327031 20070301185607
+66.17.40.147 12 51 440677 20070327154145
+64.34.145.201 11 11 73468 20070330125555
+66.194.6.84 4 4 26204 20070329201811
+67.125.136.80 3 22 152338 20070314184544
+69.106.191.23 1 7 44319 20070331104444
+64.167.47.233 0 10 23961 
+131.107.0.106 10 37 291785 20070313142150
+66.194.6.70 2 2 13102 20070317025356
+209.135.18.215 2 14 134561 20070301090213
+205.210.42.80 1 1 0 20070318232159
+61.14.1.18 2 12 93919 20070313032552
+67.181.238.209 4 15 93522 20070306163813
+207.104.124.8 4 21 208489 20070326095208
+71.195.115.15 0 1 5304 
+209.234.142.52 1 7 44319 20070321110425
+63.202.49.254 0 1 5304 
+66.194.6.72 2 2 13102 20070325132416
+216.145.16.235 0 1 43 
+67.181.206.196 0 1 5304 
+64.167.47.151 7 17 109254 20070307133606
+75.60.34.137 7 35 222493 20070314135401
+64.167.47.130 0 7 89586 
+67.182.115.235 0 1 5304 
+75.37.64.9 2 10 60245 20070328145847
+69.28.101.164 2 12 93919 20070312132336
+64.162.23.123 8 29 244882 20070305141056
+69.238.24.242 3 16 116424 20070314093701
+84.168.99.40 1 7 35071 20070326012657
+209.234.192.199 9 45 155207 20070328141112
+64.34.145.199 2 2 15462 20070329031840
+64.40.73.114 1 7 35071 20070312082926
+209.234.192.195 4 22 50870 20070327170523
+64.167.47.128 2 7 40135 20070330160208
+64.167.47.213 3 8 15636 20070323160239
+63.112.170.65 2 10 60245 20070315045720
+64.167.47.214 0 9 0 
+75.13.196.153 1 7 44319 20070328080345
+64.34.145.196 2 2 13551 20070327053535
+66.101.206.254 6 24 156321 20070312103400
+12.36.121.146 1 7 44319 20070326163742
+209.135.18.254 8 39 236435 20070314122426
+65.190.129.128 2 16 170185 20070324164436
+12.72.35.34 6 27 221815 20070306133930
+12.9.20.84 3 11 71006 20070323093632
+64.171.239.2 6 25 92236 20070321091456
+66.17.45.7 1 7 44319 20070305142718
+196.15.166.134 0 1 5304 
+64.166.54.111 1 7 44319 20070320091803
+67.182.27.204 0 1 5304 
+216.145.16.237 0 1 11906 
+12.36.112.254 4 29 207242 20070314140216
+69.238.21.221 11 38 297807 20070316155345
+24.132.194.14 1 1 6551 20070331164117
+67.182.105.38 6 27 224851 20070308154956
+209.218.208.62 1 7 44319 20070305081035
+206.78.255.34 1 8 49623 20070320131732
+71.103.32.229 2 6 40705 20070303122101
+66.194.6.79 1 1 6551 20070305023743
+65.94.0.80 3 3 6551 20070303061306
+69.56.130.138 1 1 0 20070323234656
+70.136.35.177 4 16 102596 20070312145131
+66.194.6.81 1 1 6551 20070318104024
+206.169.82.79 6 28 232198 20070327182521
+66.194.6.74 2 2 13102 20070313042448
+207.213.187.62 1 7 44319 20070323105724
+131.107.0.95 2 2 15306 20070329084420
+75.37.127.158 1 7 44319 20070312071512
+66.162.146.100 1 7 44319 20070327094748
+64.34.145.194 6 6 53369 20070331204451
+72.89.186.141 2 15 152338 20070313092214
+66.194.6.73 1 1 6551 20070324011915
+66.194.6.91 1 1 6551 20070307150231
+194.72.238.94 1 7 44319 20070313045500
+64.34.145.197 2 2 10093 20070331203310
+74.52.245.146 3 3 19653 20070310165655
+24.4.70.192 7 53 237376 20070313132638
+71.132.216.172 0 1 5304 
+67.187.234.183 1 7 44319 20070325204317
+64.72.85.130 1 10 118877 20070330095047
+69.177.152.51 4 4 28072 20070306143553
+209.218.211.43 6 22 137802 20070320152223
+69.134.133.190 1 7 44319 20070323171621
+208.17.184.40 4 4 30283 20070315120204
+66.194.6.83 2 2 13102 20070331075840
+207.69.139.135 2 3 32433 20070323105232
+71.195.160.21 3 22 152338 20070329094938
+71.149.159.174 2 14 44319 20070316173044
+12.36.121.165 2 15 152338 20070309185252
+69.203.146.177 2 6 40705 20070310192113
+66.194.6.76 1 1 6551 20070328103155
+64.167.47.154 0 12 143916 
+71.110.46.38 1 7 44319 20070329200702
+64.34.145.200 4 4 23812 20070329134034
+64.246.165.235 0 1 1708 
+131.107.0.96 2 2 15700 20070311220133
+69.229.118.211 4 18 66796 20070330114203
+64.192.3.126 1 7 44319 20070322172010
+66.17.45.197 1 7 44319 20070307092326
+75.37.67.106 1 7 44319 20070324233023
+66.93.46.206 2 16 157642 20070319162305
+69.238.21.61 2 10 60245 20070313152422
+64.34.145.195 4 4 26978 20070331221408
+66.194.6.80 1 1 6551 20070310153705
+66.131.70.243 3 3 6551 20070324153120
+81.86.10.101 1 7 44319 20070328032406
+66.209.144.3 0 1 5304 
+203.189.11.2 0 1 5304 
+66.194.6.75 2 2 13102 20070327000234
+71.134.191.105 1 7 44319 20070323080602
+209.234.192.205 2 15 152338 20070301195020
+216.101.134.173 2 16 170185 20070320115237
+67.68.128.16 2 2 13102 20070328022644
+69.86.188.46 4 18 105161 20070305144402
+64.246.165.130 1 2 16722 20070306003255
+69.106.125.42 1 7 44319 20070329113912
+64.167.47.230 5 11 96965 20070320164654
+70.137.193.25 8 30 243303 20070301204632
+64.34.145.198 2 2 16256 20070330174948
+67.182.63.7 0 1 5304 
+68.5.243.46 1 7 44319 20070316171223
+66.43.74.158 1 1 10355 20070328170833
+216.145.16.236 0 1 3125 
+75.31.165.5 2 20 237754 20070329120148
+206.223.25.129 3 14 82432 20070315114131
+209.234.142.80 10 10 73893 20070321230513
+66.194.6.92 2 2 13102 20070319180804
+63.171.250.66 2 6 40705 20070330161540
+64.246.165.237 0 1 10815 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20070301 29 125 1019140 5
+20070302 3 4 24957 2
+20070303 6 10 53807 3
+20070305 15 62 445232 5
+20070306 16 54 394279 6
+20070307 14 62 377580 6
+20070308 7 28 231402 2
+20070309 2 15 152338 1
+20070310 4 8 53807 3
+20070311 2 2 15700 2
+20070312 27 125 788264 7
+20070313 49 184 1269898 10
+20070314 25 127 715753 7
+20070315 18 74 564875 6
+20070316 41 92 600358 6
+20070317 1 1 6551 1
+20070318 28 28 176145 3
+20070319 11 41 260042 5
+20070320 14 67 478536 5
+20070321 19 50 216999 5
+20070322 15 56 346079 4
+20070323 12 53 252032 7
+20070324 7 27 227606 4
+20070325 5 11 71202 3
+20070326 8 46 413307 5
+20070327 51 269 992119 20
+20070328 13 40 211506 10
+20070329 15 50 383426 12
+20070330 12 45 344292 8
+20070331 8 14 93579 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 7
+0s-30s 126
+15mn-30mn 3
+30s-2mn 19
+2mn-5mn 9
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/ 167 917140 121 83
+/our_team.html 48 403358 11 16
+/recruit.html 33 300855 3 12
+/myths.html 21 164262 2 2
+/employmentlaw.html 21 157773 4 5
+/contact.html 21 136287 1 10
+/commitment.html 20 123766 2 3
+/updates.html 20 128020 1 6
+/training.html 20 176360 2 3
+/partner_benefits.html 16 102048 2 2
+/services_print.html 7 49126 3 3
+/images/logo.swf 1 16884 0 0
+/1204_print.html 10 103550 5 2
+/commitment_print.html 4 8932 1 2
+/hrcs_print.html 3 10626 1 1
+/contact_print.html 7 11109 2 2
+/training2.html 5 38330 1 2
+/services2.html 8 76104 2 3
+/training_print.html 3 27447 1 2
+/services.html 14 84040 2 4
+/incorrect.html 6 30606 0 3
+/training3.html 3 22839 0 0
+/our_team_print.html 8 31544 0 1
+/partner_benefits_print.html 5 11030 1 2
+/recruit_print.html 2 8398 0 0
+/myths_print.html 3 9618 1 0
+END_SIDER

@@ -1,0 +1,55 @@
+/* Admin Styles for EWM Event Manager */
+
+.ewm_em_timedisplay {
+  width: 100px;
+}
+
+.ewm_em_action {
+  text-align: center !important;
+}
+
+.ewm_em_title {
+  padding-left: 3px;
+}
+
+td.ewm_em_activity {
+  width: 60px;
+  text-align: right !important;
+}
+
+
+
+td.ewm_em_activity a {
+  text-align: right !important;
+  font-weight: normal;
+  float: right;
+}
+
+.ewm_em_delete_event, .ewm_em_edit_event {
+  width: 16px;
+}
+
+.ewm_em_delete_event a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: transparent url(../images/delete_event.png) no-repeat top left;
+  overflow: hidden;
+  text-indent: -9000px;
+}
+
+.ewm_em_edit_event a {
+  display: block;
+  width: 16px;
+  height: 16px;
+  background: transparent url(../images/edit_event.png) no-repeat top left;
+  overflow: hidden;
+  text-indent: -9000px;
+}
+
+.optiontable #categories-all{
+  margin: 10px 0 !important;
+  height: 100px !important;
+  padding: 5px 5px 25px 0px !important;
+  font-size: 11px !important;
+}

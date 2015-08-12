@@ -1,0 +1,1046 @@
+  /*******************************************************************************
+ * WORDPRESS TEMPLATE CONFIG
+ * ----------------------------------------------------------------------------- 
+ * Theme Name: Sierra HR
+ * Theme URI: http://elementwebmedia.com
+ * Description: This is the default theme for Sierra HR
+ * Version: 1.0
+ * Author: Element Web Media
+ * Author URI: http://elementwebmedia.com
+ *
+ ******************************************************************************/
+ 
+/*******************************************************************************
+ * TABLE OF CONTENTS
+ * -----------------------------------------------------------------------------
+ * =RESET
+ * =GLOBAL
+ * =HEADER
+ * =NAVIGATION
+ * =CONTENT
+ *   =-PAGE/POST
+ *   =-FORMS 
+ *   =-SEARCH
+ *   =-HEADING BOX  
+ * =SIDEBAR
+ * =HOMEPAGE 
+ * =FOOTER     
+ *
+ ******************************************************************************/
+ 
+/*******************************************************************************
+ * COLOR LEGEND
+ * -----------------------------------------------------------------------------
+ * Blue (text)     : #1D515F
+ * Dark blue       : #0f323c
+ * Green           : #397f19
+ * Light orange    : #F8A45F
+ * Red             : #d51f1f
+ * Grey            : #5c5c5c     
+ *
+ ******************************************************************************/
+ 
+/*******************************************************************************
+ * =RESET
+ -----------------------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0; 
+}            
+
+img, fieldset {
+  border: 0;
+}
+
+/*******************************************************************************
+ * =GLOBAL
+ -----------------------------------------------------------------------------*/
+body {
+  margin: 0 auto;
+  background: #1F3055;
+  font: normal 12px/15px Arial;
+  padding: 15px 0;
+}
+
+#con {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-top: 0px solid black;
+  background: #DCE1E8 url(images/sidebar_bg_span.jpg) repeat-y top left;
+}
+
+#con_pattern {
+  background: transparent url(images/sidebar_bg_bot.jpg) no-repeat bottom left;
+}
+
+.clear {
+  clear: both;
+}
+
+/*******************************************************************************
+ * =HEADER
+ -----------------------------------------------------------------------------*/
+#hdr {
+  position: relative;
+  height: 101px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border-top: 3px solid #2E4579;
+  background: url(images/header1.jpg) no-repeat top left;
+}
+
+#hdr h3 a {
+  float: left;
+  width: 327px;
+  height: 101px;
+  text-indent: -9000px;
+}
+
+#hdr .site_descr{
+  text-indent: -9000px;
+  overflow: hidden;
+  font-size: 10px;
+}
+
+/*******************************************************************************
+ * =CONTENT BOX
+ -----------------------------------------------------------------------------*/
+
+#content {
+  display: inline;
+  float: right;
+  width: 525px;
+  margin: 0 50px 0 0;
+  padding: 0;
+  border: 0px solid black;
+  padding-bottom: 135px;
+  font: normal 12px/17px Arial, sans-serif;
+}
+
+#content h1 {
+  font: bold 26px/26px Times New Roman, Georgia, serif;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #1F3055;
+  margin-bottom: 15px;
+}
+
+#content p {
+  padding: 0 0 15px 0;
+}
+
+#content span.emtitle {
+  font-size: 14px;
+  font-style: italic;
+}
+
+#content ul {
+  margin-left: 22px;
+  padding-bottom: 14px;
+}
+
+#content ul li {
+  padding-bottom: 3px;
+  padding-left: 3px;
+}
+
+#content h3 {
+  font: bold 14px/14px Arial, sans-serif;
+  padding-top: 3px;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+  color: #2E4579;
+}
+
+/*******************************************************************************
+ * =SIDEBAR
+ -----------------------------------------------------------------------------*/
+#sidebar {
+  float: left;
+  width: 225px;
+  border-right: 0px solid #aaa;
+}
+
+#sidebar h2, #sidebar h2 a {
+  width: 220px;
+  margin: 0 0 6px;
+  padding: 0 0 5px;
+  border-bottom: 1px solid #B5D6DF;
+  font: italic 16px Georgia;
+  color: #d51f1f;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+#sidebar h2 a:hover {
+  text-decoration: underline;
+}
+
+#sidebar_nav {
+  min-height:691px;
+  height:auto !important;
+  height:691px;
+  background: transparent url(images/sidebar_bg_top.jpg) no-repeat top left;
+}
+
+/* =-SIDEBAR NAVIGATION ------------------------------------------------------*/
+
+#sidebar_nav ul {
+  border-top: 1px solid #1F3055;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 58px;
+  padding-right: 9px;
+  padding-top: 5px;
+  font: normal 12px/15px Arial, sans-serif;
+}
+
+#sidebar_nav ul li {
+  display: block;
+  margin-bottom: 0px;
+}
+
+#sidebar_nav ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 3px 6px 5px; 
+  border-bottom: 1px dotted #1F3055;
+}
+
+#sidebar_nav ul li a:hover {
+  background: #5475A5;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+}
+
+#sidebar_nav ul li ul {
+  margin-right: 0;
+  padding-right: 0;
+  border-top: 0;
+  padding-top: 0;
+}
+
+/*******************************************************************************
+ * =FOOTER
+ -----------------------------------------------------------------------------*/
+
+#ftr {
+  clear: both;
+  border: 2px solid #DCE1E8;
+  background: #5475A5;
+  text-align: center;
+  padding: 8px 3px;
+}
+
+#ftr p {
+  color: #fff;
+  font: normal 12px Arial, sans-serif;
+}
+
+/*
+#ftrCon {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+ 
+#ftr .copyright {
+  position: absolute;
+  top: 55px;
+  left: 15px;
+  width: 220px;
+  font: italic 12px Georgia;
+  color: #237395;
+}
+
+#ftr .copyright a, #ftr .ack a {
+  color: #237395;
+}
+
+#ftr .ack {
+  position: absolute;
+  top: 55px;
+  left: 485px;
+  width: 400px;
+  font: italic 12px Georgia;
+  color: #237395;
+  text-align: right;
+}
+
+#output {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 360px;
+  padding: 5px;
+  background: #ccc;
+
+  z-index: 1000;
+}
+
+#output div {
+  padding: 5px;
+  border: 1px solid #fff;  
+}
+*/
+
+/* =-PAGE/POST ---------------------------------------------------------------
+
+#main {
+  float: right;
+  width: 555px;
+  margin: 0 5px 0 0;
+  padding: 0 20px 0 0;
+}
+
+#main .post {
+  margin: 0 0 20px;
+}
+
+#main h1, #main h1 a {
+  margin: 0 0 7px;
+  font: italic 17px Georgia;
+  color: #397f19;
+  text-transform: uppercase;
+}
+
+#main h2, #main h2 a {
+  margin: 0 0 7px;
+  font: 24px Georgia;
+  color: #0f323c;
+  letter-spacing: -1px;
+}
+
+#main h3, #main h3 a {
+  margin: 0 0 10px;
+  font: 19px Georgia;
+  color: #397f19;
+}
+
+#main h4, #main h4 a {
+  margin: 0 0 5px;
+  font: 16px Georgia;
+  color: #0f323c;
+}
+
+#main h5, #main h5 a {
+  margin: 0 0 3px;
+  font: bold 13px Arial;
+  color: #0f323c;
+}
+
+#main h6, #main h6 a {
+  font: bold 11px Arial;
+  color: #0f323c;
+}
+
+#main p {
+  margin: 0 0 20px 0;
+  font: 12px/20px Arial;
+  color: #1D515F;
+}
+
+#main p a {
+  color: #0f323c;
+}
+
+#main a.investnow {
+  display: block;
+  width: 164px;
+  height: 47px;
+  background: url(images/btn_investnow.jpg) top center no-repeat;
+  text-indent: -9000px;
+}
+
+#main p strong {
+  color: #0f323c;
+}
+
+#main ul {
+  margin: 0 0 15px 8px;
+  color: #1D515F;
+  list-style: none;
+}
+
+#main ul li {
+  padding: 0 0 0 22px;
+  background: url(images/bullet_star.gif) top left no-repeat;
+}
+
+#main li {
+  margin: 0 0 5px;
+  line-height: 20px;
+}
+
+#main ol {
+  margin: 0 0 15px 30px;
+  color: #1D515F;  
+}
+
+#main ol li span {
+  font: 12px Arial;
+}
+
+#main blockquote p {
+  margin: 0 0 20px;
+  padding: 0 30px 0 65px;
+  background: url(images/bg_blockquote.gif) top left no-repeat;
+  font: italic 12px/18px Arial;
+}
+
+#main blockquote.emph p {
+  padding: 0 20px;
+  background: 0;
+  font: italic 24px/24px Georgia;
+  text-align: center;
+}
+
+#main img {
+  padding: 5px;
+  border: 1px solid #cfcfcf;
+}
+
+#main a.mediapopup img {
+  border: 0;
+}
+
+#main img.aligncenter, #main a img.aligncenter {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+#main .alignleft {
+  float: left;
+  margin: 0 10px 5px 0;
+}
+
+#main .alignright {
+  float: right;
+  margin: 0 0 5px 10px;
+}
+
+#main .navigation a {
+  margin: 0;
+  font: 15px Georgia;
+  color: #397f19;
+  text-decoration: none;
+}
+
+#main .navigation .alignleft a {
+  float: left;
+}
+
+#main .navigation .alignright a {
+  float: right;
+}
+
+#main div.wp-caption {
+  margin: 0 10px 15px;
+  padding: 5px 0;
+  border: 1px solid #ccc;
+  text-align: center;  
+}
+
+#main div.wp-caption.alignleft {
+  margin: 0 15px 15px 0;
+}
+
+#main div.wp-caption.alignright {
+  float: right;
+}
+
+#main div.wp-caption img, #main div.wp-caption a img {
+  margin: 0;
+  padding: 0 0 10px;
+  border: 0;
+}
+
+#main p.wp-caption-text {
+  margin: 0 0 3px;
+  padding: 0 10px;
+  font: italic 12px Georgia;
+  text-align: center;
+}
+
+#main .date {
+  margin: 0 0 10px;
+  font: italic 13px Georgia;
+  color: #397f19;
+}
+
+#main .blueBox, #main .greenBox {
+  margin: 0 0 20px;
+  padding: 5px 10px;
+  background: #D1E7EF;
+  border: 1px solid #A8CAD6;
+  text-align: center;
+}
+
+#main .greenBox {
+  background: #E9FFDF;
+  border: 1px solid #AFDF99;
+}
+
+#main .blueBox h3 {
+  color: #0f323c;
+}
+
+#main .blueBox p, #main .greenBox p {
+  margin: 0 0 10px;
+  font: 14px/20px Arial;  
+} 
+
+#main .greenBox p, #main .greenBox p strong {
+  color: #397f19;  
+}
+
+#main .blueBox span.left {
+  float: left;
+}
+
+#main .blueBox span.right {
+  float: right;
+}
+
+#main hr {
+  clear: both;
+  display: block;
+  width: 425px;
+  height: 0;
+  margin: 0 0 10px;
+  background: #fff;
+  border: 0;
+  color: #fff;
+  text-align: left;
+}
+
+#main .blueBox hr, #main .greenBox hr {
+  clear: both;
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 0 0 10px;
+  background: #62858F;
+  border: 0;
+  color: #62858F;
+  text-align: center;  
+}
+
+#main table {
+  width: 100%;
+  border-top: 1px solid #A8CAD6;
+  border-left: 1px solid #A8CAD6;
+}
+
+#main table td, #main table th {
+  padding: 5px 5px;
+  border-bottom: 1px solid #A8CAD6;
+  border-right: 1px solid #A8CAD6;
+  color: #1D515F;
+}
+
+#main table th {
+  font: bold 14px Georgia;
+  color: #0f323c;
+  text-align: left;
+}
+
+#main table td.right {
+  text-align: right;
+}
+
+#main p.red {
+  margin: 0 0 5px;
+  color: #ff0000;
+}
+
+#main div.hyghThumb p {
+  position: relative;
+  padding: 0 0 0 155px;
+}
+
+#main div.hyghThumb p img {
+  position: absolute;
+  top: 0;
+  left: -130px;
+}
+
+/* =-FORMS -------------------------------------------------------------------
+#cf {
+  float: left;
+  width: 50%;
+}
+
+#cf .msg {
+  width: 256px;
+  margin: 0 0 10px;
+  padding: 5px;
+  background: #FFFBCC;
+  border: 1px solid #E6DB55;
+  font: 13px Georgia;
+  color: #1D515F;
+  text-align: center;
+}
+
+#cf p {
+  font: 14px Georgia;
+}
+
+#cf label {
+  display: block;
+  margin: 0 0 -10px;
+}
+
+#cf .itf, #cf textarea {
+  width: 260px;
+  padding: 3px;
+  border: 1px solid #B5D6DF;
+  font: 12px Arial;
+  color: #0f323c;
+}
+
+#cf textarea {
+  height: 150px;
+}
+
+#df {
+  margin: 0;
+  padding: 0;
+}
+
+#df fieldset {
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  border: 1px solid #A8CAD6; 
+}
+
+#df legend {
+  font: 16px Georgia;
+  color: #6D929F;
+  text-transform: uppercase;
+}
+
+#df legend span {
+  color: #ff0000;
+}
+
+#df h4 {
+  text-transform: none;
+}
+
+#df p {
+  margin: 0 0 10px;
+  padding: 5px 10px;
+  background: #E0ECEF;
+  line-height: 30px;
+}
+
+#df p.normal {
+  line-height: 20px;
+}
+
+#df label {
+  display: block;
+  float: left;  
+  width: 150px;
+  height: auto;
+  padding: 0 20px 0 0;
+  font-weight: bold;
+  text-align: right;
+}
+
+#df input.itf {
+  padding: 3px;
+  border: 1px solid #A8CAD6;
+}
+
+#df p span {
+  display: block;
+  padding: 0 0 10px 20px;
+}
+
+#df p span.normal {
+  display: block;
+  padding: 0 0 10px;
+  line-height: 20px;
+}
+
+#df p span#wrap-multiinvest {
+  padding: 0;
+}
+
+#df textarea {
+  width: 400px;
+  height: 150px;
+  padding: 3px;
+  border: 1px solid #A8CAD6;  
+  overflow: auto;
+}
+
+#df span#alumni-year {
+  clear: left;
+  display: block;
+  padding: 0;
+}
+
+#df .tribute-images {
+  height: 130px;
+}
+
+#df .tribute-images label {
+  float: left;
+  width: 100px;
+  height: auto;
+  padding: 0;
+}
+
+#df .tribute-images img {
+  padding: 0;
+  border: 0;
+}
+
+#df .thumbnail {
+  position: relative;
+  z-index: 0;
+}
+
+#df .thumbnail:hover {
+  background-color: transparent;
+  z-index: 50;
+}
+
+#df .thumbnail span {
+  visibility: hidden;
+  position: absolute;
+  left: -1000px;
+  color: black;
+  text-decoration: none;
+}
+
+#df p span.required {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #ff0000;
+}
+
+#df .thumbnail span img {
+  padding: 2px;
+  border: 1px solid #ccc;;
+}
+
+#df .thumbnail:hover span {
+  visibility: visible;
+  top: 40px;
+  left: -100px;
+}
+
+#df button {
+  padding: 0;
+  line-height: 20px;
+}
+
+#main #msg {
+  display: block;
+  margin: 0 0 10px 0;
+  padding: 5px 10px;
+  background: #FFBFBF;
+  border: 1px solid #BF5F5F;
+}
+
+#main #msg h3 {
+  margin: 0 0 5px;
+  font: bold 13px Arial;
+  color: #7F2727;
+}
+
+#main #msg ul {
+  margin: 0 0 10px 0;
+  list-style: disc inside;
+  color: #7F2727;
+}
+
+#main #msg li {
+  margin: 0 0 4px;
+  padding: 0;
+  background: 0;
+}
+/* =-SEARCH ------------------------------------------------------------------
+#main h1.first {
+  margin: 0 0 15px;
+}
+
+#main .search_nav {
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#main .search_nav span a {
+  margin: 0 4px 0 0;
+  padding: 3px 6px;
+  background: #efefef;
+  border: 1px solid #cdcdcd;
+  color: #555;
+  text-decoration: none;
+}
+
+#main .search_nav .floatleft, #main .search_nav .floatright {
+  float: left;
+  padding: 0 10px 0 0;
+}
+
+#main .search_nav span a:hover {
+  background: #D1E7EF;
+  border: 1px solid #A8CAD6;
+  color: #1D515F;
+}
+
+/* =-DIRECTORS PAGE ----------------------------------------------------------
+.directordiv {
+  float: left;
+  width: 184px;
+}
+
+#main .directordiv.wider {
+  width: 275px;
+}
+
+#main .directordiv div.wp-caption {
+  margin: 0 8px 15px 0;
+  padding: 5px 0;
+  border: 1px solid #ccc;
+  text-align: center;  
+}
+
+#main .directordiv p {
+  display: none;
+}
+
+#main .directordiv div.wp-caption p {
+  display: block;
+}
+
+/* =-HEADING BOX -------------------------------------------------------------
+#headingBox {
+  position: relative;
+  width: 870px;
+  height: 120px;
+  margin: -8px auto 25px;
+  background: url(images/bg_headingbox.jpg) bottom left no-repeat;
+}
+
+#headingBox h2 {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  font: italic 50px Georgia;
+  color: #30626F;
+  letter-spacing: -2px;
+}
+
+#headingBox #photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 381px;
+  height: 120px;
+  background: transparent url(images/headingbox_photo3.jpg) bottom right no-repeat;
+}
+
+/*******************************************************************************
+ * =HOMEPAGE
+ -----------------------------------------------------------------------------
+ 
+#flashBox {
+  width: 880px;
+  height: 274px;
+  margin: 0 0 3px -7px;
+  padding-top: 5px;
+  padding-left: 7px;
+  background: url(images/flashddbox.jpg) top center no-repeat;
+}
+
+ul#homeBtns {
+  width: 870px;
+  height: 90px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#homeBtns li {
+  float: left;
+}
+
+#homeBtns .invest, 
+#homeBtns .gift, 
+#homeBtns .about, 
+#homeBtns .informed, 
+#homeBtns .givenow {
+  float: left;
+  display: block;
+  width: 167px;
+  height: 80px;
+  margin: 0 8px 18px 0;
+  background: url() top center no-repeat;
+  text-indent: -9000px;
+}
+
+#homeBtns .invest {
+  margin: 0 8px 18px 2px;
+  background-image: url(images/home_btn_waystoinvest.jpg);
+}
+
+#homeBtns .gift {
+  background-image: url(images/home_btn_howyourgifthelps.jpg);
+}
+
+#homeBtns .about {
+  background-image: url(images/home_btn_learnmoreaboutus.jpg);
+}
+
+#homeBtns .informed {
+  background-image: url(images/home_btn_stayinformed.jpg);
+}
+
+#homeBtns .givenow {
+  margin: 0 0 18px 0;
+  background-image: url(images/home_btn_readygivenow.jpg);
+}
+
+#homeContent {
+  width: 870px;
+  margin: 0 auto;
+}
+
+#homeContent .intro {
+  float: left;
+  width: 520px;
+  padding: 0 15px 0 0;
+  border-right: 1px solid #ccc;
+}
+
+#homeContent .newsSnippet {
+  float: right;
+  width: 315px;
+}
+
+#homeContent .newsSnippet .more a {
+  padding: 0 0 0 16px;
+  background: url() center left no-repeat;
+  font: 12px Arial;
+  color: #5c5c5c;
+  text-decoration: none;
+}
+
+#homeContent .newsSnippet .more .readMore {
+  padding-right: 8px;
+  background-image: url(images/icon_readmore.gif);
+}
+
+#homeContent .newsSnippet .more .numComments {
+  background-image: url(images/icon_comments.gif);
+}
+
+#homeContent .newsSnippet .more a:hover {
+  text-decoration: underline;
+}
+
+#homeContent h2, #homeContent h2 a {
+  margin: 0 0 7px;
+  font: 24px Georgia;
+  color: #0f323c;
+  letter-spacing: -1px;
+}
+
+#homeContent h2.smallGreen {
+  margin: 0 0 1px;
+  font: 14px Georgia;
+  color: #397f19;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+#homeContent p {
+  margin: 0 0 15px 0;
+  font: 12px/18px Arial;
+  color: #1D515F;
+}
+
+#homeContent p a {
+  color: #0f323c;
+}
+
+#homeContent a.cusd {
+  display: block;
+  width: 519px;
+  height: 60px;
+  background: url(images/home_btn_cusd.jpg) top center no-repeat;
+  text-indent: -9000px;
+}
+*/
+
+    /*****************************************************************************
+    These styles should be at the bottom of `sifr.css`. Make sure that they're
+    only applied for the screen media type!
+    *****************************************************************************/
+    
+@media screen {
+  .sIFR-flash {
+    visibility: visible !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sIFR-replaced, .sIFR-ignore {
+    visibility: visible !important;
+  }
+  
+  .sIFR-alternate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+  }
+  
+  .sIFR-replaced div.sIFR-fixfocus {
+    margin: 0pt; 
+    padding: 0pt; 
+    overflow: auto; 
+    letter-spacing: 0px; 
+    float: none;
+  }
+}
+
+@media print {
+  .sIFR-flash {
+    display    : none !important;
+    height     : 0;
+    width      : 0;
+    position   : absolute;
+    overflow   : hidden;
+  }
+  
+  .sIFR-alternate {
+    visibility : visible !important;
+    display    : block   !important;
+    position   : static  !important;
+    left       : auto    !important;
+    top        : auto    !important;
+    width      : auto    !important;
+    height     : auto    !important;
+  }
+}
+    
+    
+.sIFR-active h1 {
+  visibility: hidden;
+  font-family: Verdana;
+}

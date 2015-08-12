@@ -1,0 +1,491 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201010 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2549                
+POS_VISITOR 8654                
+POS_DAY 12365               
+POS_DOMAIN 3307                
+POS_LOGIN 3539                
+POS_ROBOT 3694                
+POS_WORMS 4573                
+POS_EMAILSENDER 4704                
+POS_EMAILRECEIVER 4847                
+POS_SESSION 13116               
+POS_SIDER 13327               
+POS_FILETYPES 4982                
+POS_OS 5214                
+POS_BROWSER 5351                
+POS_SCREENSIZE 5634                
+POS_UNKNOWNREFERER 5708                
+POS_UNKNOWNREFERERBROWSER 6115                
+POS_ORIGIN 6436                
+POS_SEREFERRALS 6579                
+POS_PAGEREFS 6757                
+POS_SEARCHWORDS 7310                
+POS_KEYWORDS 7699                
+POS_MISC 2212                
+POS_ERRORS 7864                
+POS_CLUSTER 3395                
+POS_SIDER_404 7984                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20101101020553 3211 822034 84269048204
+FirstTime 20101001122511
+LastTime 20101031180931
+LastUpdate 20101101160953 3211 3185 25 0 0
+TotalVisits 174                 
+TotalUnique 89                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 91                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 61 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 23 446755 26 27 54393
+1 6 19 314374 22 22 2177
+2 2 2 15428 36 36 884
+3 2 2 15517 14 14 338
+4 1 1 7714 30 30 31806
+5 4 16 267801 16 16 11620
+6 1 1 7803 16 16 412
+7 0 0 0 17 17 2512
+8 1 1 7714 35 35 38979
+9 6 18 283901 16 16 15764
+10 2 2 15517 18 18 25196
+11 82 346 3033251 47 48 24294
+12 53 189 1866235 58 58 54277
+13 56 141 1535749 42 42 14393
+14 69 234 5428626 53 53 33541
+15 54 210 2540904 43 43 34394
+16 31 100 792955 43 43 41647
+17 64 234 5497921 57 57 93891
+18 28 113 1165054 66 66 28186
+19 24 109 1551349 44 44 8872
+20 8 66 481096 38 42 175514
+21 3 3 23409 22 22 14714
+22 6 18 289291 11 11 8441
+23 5 17 276413 14 14 2197
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 513 1865 25864777
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+wordpress 68 37 20101031190539 0
+googlebot 67 235052 20101030213854 37
+yandex 54 1404 20101031203746 54
+sogou 53 40085 20101027100100 48
+crawl 24 624 20101031180714 24
+unknown 20 520 20101029231557 20
+bot[+:,\.\;\/\\-] 19 31246 20101031190537 15
+commons\-httpclient 18 31230 20101031231506 0
+feedfetcher\-google 16 94110 20101026115517 0
+msnbot 12 312 20101027024000 12
+bspider 2 52 20101019105506 2
+no_user_agent 3 15611 20101025162628 1
+exabot 8 208 20101031223528 8
+slurp 5 130 20101025052336 5
+robot 3 78 20101028192045 3
+custo 1 7803 20101012175841 0
+python 11 158824 20101013205808 0
+heritrix 1 26 20101014010202 1
+legs 3 78 20101029043206 3
+surveybot 2 52 20101021115252 2
+larbin 8 23361 20101029043145 5
+turnitinbot 1 26 20101029042802 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 318 2150080 0 0
+png 1 243 0 0
+pdf 22 5873768 0 0
+swf 116 2145762 0 0
+php 10 10582 0 0
+html 477 3834487 0 0
+js 219 7118024 0 0
+jpg 677 4659639 0 0
+doc 4 55296 0 0
+gif 21 16896 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 108
+winlong 153
+winunknown 4
+winxp 1481
+win2003 2
+winnt 39
+win2000 1
+Unknown 13
+win2008 64
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 18
+msie6.0 354
+msie5.01 16
+firefox3.5.13 13
+chrome 21
+firefox3.6.11 26
+firefox3.0 1
+opera 6
+firefox3.0.5 1
+netscape4.7 23
+msie8.0 544
+firefox2.0.0.11 19
+mozilla 1
+msie7.0 652
+firefox3.6.3 6
+firefox3.6.10 103
+msie 1
+Unknown 9
+safari 69
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+SAMSUNG-SGH-A897/A897UCIIA;_Mozilla/5.0_(Profile/MIDP-2.0_Configuration/CLDC-1.1;_Opera_Mini/att/4.2.15304;_U;_en-US)_Opera_9.50 20101008170513
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20101011005520
+Gist_Server 20101023121136
+Mozilla/3.0_(compatible) 20101013235525
+oBot 20101025110417
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20101011005520
+Gist_Server 20101023121136
+Microsoft_Office_Existence_Discovery 20101025181241
+Microsoft_Office_Protocol_Discovery 20101025173327
+oBot 20101025110417
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 252 270
+From1 0 0
+From2 49 49
+From3 19 19
+From4 193 1527
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 46 46
+search 2 2
+yahoo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://www.linkedin.com/profile/view 3 3
+http://www.semrush.com/info/sierrahr.com 3 3
+http://www.bing.com/local/details.aspx 3 3
+http://www.whorush.com/search/ 3 3
+http://www.linkedin.com/in/brendabudke 3 3
+http://www.bing.com/search 1 1
+http://www.linkedin.com/company/sierra-hr-partners-inc. 1 1
+http://www.linkedin.com/companies/sierra-hr-partners-inc. 1 1
+http://www.facebook.com/ajax/emu/end.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 11
+sierra+hr+partners 11
+sierra+hr+partners+inc 4
+sierra+hr+partners+fresno+ca 2
+sierra+hr+fresno 2
+homepage 2
+sierra+hr 1
+sierrahrpartners 1
+sierra+hr+partners+in+fresno 1
+fresno+sierra+hr 1
+serria+hr+partners 1
+hr+consulting+fresno+ca 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 11
+hr 24
+sierra 22
+partners 19
+fresno 7
+inc 4
+ca 3
+homepage 2
+consulting 1
+sierrahrpartners 1
+serria 1
+in 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 3 0
+500 2 9008
+404 9 51348
+301 377 17217
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/1204_print.html 2 http://sierrahr.com/labor-law-updates/
+/calendar/id/74/legal-beagle-bagel-breakfast-training-course 2 http://sierrahr.com/calendar/
+/our_team.html 1 http://www.google.com/search
+/background-investigations/index.html 1 http://www.google.de
+/wp-content/themes/SierraHR-Theme/images/ajax-loader.gif 2 http://www.facebook.com/
+/mgcapture.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 91
+209.234.192.222 85 435 739450 20101029183213
+209.234.192.194 79 294 1600283 20101028155731
+63.200.164.85 26 50 1654321 20101018112232
+85.10.200.81 21 23 209885 20101007120655
+66.193.195.66 19 50 714720 20101025181241
+12.36.122.120 17 38 462554 20101001155944
+72.51.47.138 16 16 136358 20101004132946
+204.14.163.138 15 40 3154640 20101020143118
+173.165.147.29 15 39 1378033 20101020182601
+67.181.189.223 13 31 438018 20101001132327
+152.72.151.71 1 13 245201 20101029140750
+128.187.0.182 2 14 252956 20101005094253
+76.103.255.30 1 13 245290 20101018190342
+208.80.194.47 1 1 7714 20101027042603
+195.127.173.170 2 2 15606 20101010132834
+12.183.240.66 6 32 596303 20101021115241
+75.6.182.209 1 14 275512 20101004141158
+216.104.15.134 2 4 194589 20101020190800
+208.80.194.52 2 2 15517 20101027093341
+208.80.194.54 1 1 7714 20101029092840
+12.186.111.234 3 15 264921 20101019174151
+194.153.113.7 2 2 15428 20101025110417
+99.28.155.164 3 15 259998 20101022051803
+173.12.218.45 2 15 288425 20101001122524
+64.171.224.83 7 19 298771 20101007141925
+211.233.79.168 1 1 7803 20101011221257
+72.197.212.11 7 30 263541 20101023192548
+206.78.213.254 3 15 265882 20101007222704
+208.80.194.60 1 1 7803 20101006012634
+208.54.5.67 2 14 252956 20101012205737
+12.236.20.50 1 14 275512 20101012185346
+67.181.172.150 8 32 541289 20101025155936
+67.125.135.117 1 1 7714 20101027121138
+70.235.228.125 2 14 254659 20101021145752
+208.80.194.32 6 6 46640 20101024172205
+150.70.64.193 3 6 148313 20101018113545
+208.80.194.55 2 2 15428 20101031180931
+63.192.182.126 2 21 321688 20101004152413
+208.80.194.62 1 1 7803 20101006032031
+75.37.52.125 4 16 267031 20101004141405
+67.156.244.89 3 19 309452 20101005142002
+68.168.105.58 2 2 15542 20101025011344
+69.197.183.250 1 1 7714 20101026102741
+166.205.139.165 1 12 214979 20101025120949
+67.182.28.14 4 28 494006 20101008135326
+69.238.91.19 2 19 321688 20101008141340
+74.92.248.146 8 28 314679 20101025143508
+12.181.168.226 1 13 245201 20101021185820
+67.114.110.115 1 13 245201 20101020112152
+99.0.89.161 11 28 395173 20101028174634
+98.248.18.250 2 15 283315 20101020014747
+71.112.84.168 2 14 252969 20101019192828
+64.27.10.34 1 1 7803 20101008140743
+98.239.98.39 12 29 408390 20101016115122
+216.104.15.142 1 3 184986 20101025154202
+70.89.145.89 3 20 329189 20101020171137
+79.14.182.158 1 1 7803 20101013235525
+78.140.138.39 1 1 7714 20101029021551
+204.14.165.180 3 16 290398 20101012134032
+216.104.15.130 4 6 70145 20101025154240
+98.239.97.97 2 15 283931 20101013121108
+208.80.194.58 1 1 7714 20101022035458
+208.80.194.34 1 1 7803 20101014092747
+208.80.194.53 1 1 7714 20101031130325
+198.200.238.203 1 13 245201 20101029171054
+95.26.233.163 1 1 7803 20101017132114
+72.94.249.38 1 1 7714 20101027080334
+68.125.174.110 2 8 185948 20101019004408
+65.206.242.218 4 20 310964 20101014150325
+64.90.10.204 1 1 7803 20101007101148
+208.80.194.35 2 2 15428 20101029145806
+208.80.194.61 2 2 15428 20101023012327
+209.234.197.205 1 13 245290 20101019234032
+66.77.140.66 1 13 245290 20101013120956
+72.53.194.237 1 6 147923 20101008170511
+12.36.121.246 1 13 245201 20101029174750
+66.220.153.244 1 1 7803 20101011005520
+216.104.15.138 1 1 9458 20101018114039
+150.70.66.182 0 1 17414 
+150.70.75.155 12 16 323889 20101018113244
+209.78.80.254 3 27 498170 20101021153541
+88.214.193.166 6 6 46640 20101020143802
+98.252.64.201 0 10 181500 
+208.80.194.50 2 2 15606 20101016193422
+174.37.154.78 1 1 7714 20101023121136
+66.17.43.83 4 21 336891 20101022194227
+99.39.2.1 1 1 7803 20101019214833
+202.136.251.130 1 1 7803 20101004153945
+96.251.149.2 6 19 1363824 20101027141211
+72.29.231.9 1 13 245201 20101020152351
+86.129.4.231 1 13 245290 20101011005333
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20101001 33 97 1196800 4
+20101003 2 2 15606 2
+20101004 26 96 1242986 7
+20101005 17 81 893407 9
+20101006 6 18 46818 5
+20101007 53 130 1130116 7
+20101008 14 90 1265240 8
+20101010 2 2 15606 1
+20101011 8 32 300790 5
+20101012 24 110 959320 9
+20101013 18 82 2810114 8
+20101014 17 78 634893 9
+20101015 2 14 15606 1
+20101016 13 30 416193 2
+20101017 2 2 15606 2
+20101018 59 146 2771286 12
+20101019 31 121 2419231 10
+20101020 27 132 2897607 11
+20101021 15 88 1107026 7
+20101022 14 59 650887 7
+20101023 4 15 241482 4
+20101024 2 2 15428 2
+20101025 46 153 1698623 12
+20101026 17 58 135256 3
+20101027 21 58 1484685 9
+20101028 26 90 510883 6
+20101029 12 76 940440 10
+20101030 0 1 17414 0
+20101031 2 2 15428 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 10
+5mn-15mn 15
+0s-30s 106
+15mn-30mn 8
+2mn-5mn 8
+30s-2mn 14
+30mn-1h 13
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 39
+/ 278 2131081 162 123
+/our-team/ 24 283968 3 10
+/forms/ 18 170244 1 3
+/contact-us/ 18 138517 1 7
+/training-workshops/ 17 219521 0 3
+/background-investigations/services/ 17 172941 0 4
+/background-investigations/ 14 92322 0 0
+/human-resource-compliance-support/ 12 101028 1 2
+/background-investigations/myths-facts/ 12 90468 0 2
+/labor-law-updates/ 11 72798 1 2
+/recruiting-job-placement-services/feed/ 1 801 0 0
+/our-commitment-to-you/feed/ 1 771 0 0
+/calendar/ 6 68010 0 2
+/wp-content/uploads/posting-requirements.doc 4 55296 0 1
+/training-workshops/feed/ 1 765 0 0
+/contact-us/feed/ 1 749 0 0
+/our-team/feed/ 1 745 0 0
+/human-resource-compliance-support/feed/ 1 801 0 0
+/our-commitment-to-you/ 10 72070 1 3
+/feed/ 2 3382 0 0
+/wp-content/uploads/harassment1.pdf 1 1117109 0 0
+/feed/atom/ 1 1735 0 1
+/wp-content/uploads/Form-I-9-Exp.-8-31-12.pdf 1 387855 0 0
+/hr-business-partner-benefits/feed/ 1 785 0 0
+/background-investigations/services/feed/ 1 771 0 0
+/2008/12/new-site/ 2 11990 0 0
+/rsvp-form/ 7 66045 2 4
+/background-investigations/myths-facts/feed/ 1 783 0 0
+/wp-content/plugins/ewm-contact-manager/sendmessage.php 5 154 1 1
+/wp-content/uploads/credit-authorization-form.pdf 4 527409 0 0
+/hr-business-partner-benefits/ 9 64323 1 1
+/recruiting-job-placement-services/ 8 61008 0 0
+/wp-content/uploads/order-form.pdf 5 822124 0 3
+/wp-content/uploads/ 1 0 0 0
+/wp-content/uploads/w-4-form-2009.pdf 1 228835 0 1
+/wp-login.php 5 10428 0 0
+/wp-content/uploads/applicant-info-2-pgs.pdf 5 1492072 0 0
+/forms/form-i-9-exp-8-31-12/ 1 6065 0 0
+/wp-content/uploads/applicant-authorization-form.pdf 5 1298364 0 1
+END_SIDER

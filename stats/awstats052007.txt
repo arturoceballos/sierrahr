@@ -1,0 +1,523 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2007-05 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2535                
+POS_VISITOR 8104                
+POS_DAY 13008               
+POS_DOMAIN 3326                
+POS_LOGIN 3557                
+POS_ROBOT 3712                
+POS_WORMS 4103                
+POS_EMAILSENDER 4234                
+POS_EMAILRECEIVER 4377                
+POS_SESSION 13761               
+POS_SIDER 13973               
+POS_FILETYPES 4512                
+POS_OS 4622                
+POS_BROWSER 4744                
+POS_SCREENSIZE 4970                
+POS_UNKNOWNREFERER 5044                
+POS_UNKNOWNREFERERBROWSER 5467                
+POS_ORIGIN 5826                
+POS_SEREFERRALS 5969                
+POS_PAGEREFS 6172                
+POS_SEARCHWORDS 6681                
+POS_KEYWORDS 7291                
+POS_MISC 2198                
+POS_ERRORS 7647                
+POS_CLUSTER 3413                
+POS_SIDER_404 7751                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20070601000253 1 0 30623141988
+FirstTime 20070501083511
+LastTime 20070530210053
+LastUpdate 20070602025155 1 0 0 0 0
+TotalVisits 225                 
+TotalUnique 110                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 130                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 24 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4 18 66796 18 20 85771
+1 7 32 171991 29 31 95896
+2 2 6 37256 31 32 76596
+3 2 2 14191 35 35 104245
+4 2 2 13102 34 36 106119
+5 30 30 196477 32 32 86344
+6 4 17 162431 32 33 101247
+7 41 84 669187 21 23 74482
+8 41 239 337559 32 33 91629
+9 54 257 829349 44 44 221298
+10 41 232 1036550 40 41 94431
+11 51 301 826866 29 30 117602
+12 30 206 341469 32 34 103386
+13 30 179 880094 31 31 91662
+14 42 235 662959 20 21 55637
+15 70 285 1072289 24 25 69797
+16 45 278 404157 14 14 40433
+17 30 186 359552 23 23 93789
+18 9 33 77696 32 33 89055
+19 9 35 120183 23 23 72638
+20 13 78 438111 24 26 59969
+21 36 88 264783 30 31 100563
+22 25 102 687283 22 28 111016
+23 6 36 6551 23 23 56977
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 624 2961 9676882
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+slurp 130 644153 20070530214544 0
+msnbot 119 832423 20070530125937 0
+googlebot 39 171326 20070530124428 0
+robot 12 90904 20070528100022 0
+psbot 11 0 20070523051315 0
+python 1 6551 20070524211629 0
+gigabot 1 6551 20070517134843 0
+crawl 1 6401 20070530170637 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 624 2735024 0 0
+jpg 459 3475181 0 0
+gif 1878 3466677 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 47
+winxp 2650
+winlong 23
+win2003 19
+winnt 1
+win2000 126
+Unknown 47
+linux 48
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 13
+msie6.0 2149
+firefox1.0.7 4
+konqueror 16
+mozilla 9
+firefox1.0 3
+firefox2.0.0.3 142
+msie7.0 498
+firefox2.0.0.1 19
+msie5.5 1
+netscape7.2 10
+Unknown 38
+safari 47
+firefox1.0.5 25
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+- 20070526151928
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070520132221
+Factbot_1.09 20070524154954
+Mozilla/4.0_(compatible;_BorderManager_3.0) 20070524071406
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20070501184042
+panscient.com 20070522204701
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070502094000
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+- 20070526151928
+Pingdom_GIGRIB_(http://www.pingdom.com) 20070520132221
+Factbot_1.09 20070524154954
+boitho.com-dc/0.82_(_http://www.boitho.com/dcbot.html_) 20070501184042
+panscient.com 20070522204701
+SBIder/SBIder-0.8.2-dev_(http://www.sitesell.com/sbider.html) 20070502094000
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 388 407
+From1 1 1
+From2 37 38
+From3 15 31
+From4 183 2484
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 18 18
+search 8 8
+google_image 1 2
+yahoo 8 8
+msn 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+http://www.flgz.net/left_nav.swf 8 8
+http://www.hr-guide.com/data/016B.htm 3 3
+http://by104fd.bay104.hotmail.msn.com/cgi-bin/getmsg 2 2
+http://www.pingdom.com/monitor/www.sierrahr.com 1 1
+http://domainhelp.search.com/search 1 1
+http://www.flg-law.com/human_resource.html 0 7
+http://www.flgconsulting.com 0 6
+http://www.flg-law.com/pages/human_resource.html 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 24
+sierra+hr+partners 4
+sierra+hr 3
+flg+consulting 3
+victorine+goosev 2
+flg+consulting+fresno+ca%2e 2
+flg+fresno 2
+sierrahr.com 2
+sierra+hr+partners+inc. 1
+sierra+hr+partners+fresno 1
+sierra+hr+fresno 1
+human+resource+compliance 1
+valtrex 1
+flg+consulting+inc 1
+human+resource+and+compliance 1
+hoodia 1
+myriad+human+resource+%26+services+inc 1
+msnh 1
+based+targeted+selection+training 1
+casino 1
+sierra+hr+partner 1
+flg+fresno+ca 1
+dwre 1
+adderall 1
+tenuate 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 32
+hr 11
+sierra 11
+flg 9
+fresno 7
+consulting 6
+partners 6
+human 3
+resource 3
+compliance 2
+victorine 2
+%26 1
+valtrex 1
+based 1
+msnh 1
+targeted 1
+goosev 2
+adderall 1
+sierrahr.com 2
+and 1
+partner 1
+inc 2
+training 1
+hoodia 1
+selection 1
+services 1
+ca 1
+casino 1
+inc. 1
+dwre 1
+myriad 1
+ca%2e 2
+tenuate 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 41 265303
+404 347 176970
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/jobs 1 -
+/robots.txt 340 -
+/facts.html 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 130
+209.234.192.199 198 1349 529660 20070530163735
+72.73.23.35 30 30 229333 20070511081150
+38.99.203.110 30 30 196477 20070522204701
+65.222.176.122 26 26 169594 20070520212821
+216.12.207.226 25 25 164493 20070506153647
+68.127.92.187 24 160 0 20070530210053
+216.102.41.194 17 96 256605 20070523150555
+209.234.192.220 15 52 201559 20070525090254
+71.195.120.251 14 58 297990 20070502103417
+207.104.124.10 14 40 190885 20070510091130
+66.194.6.84 1 1 6551 20070514195008
+67.187.184.132 1 7 44319 20070502203612
+66.194.6.70 2 2 13102 20070530155727
+66.194.6.77 2 2 13102 20070519070236
+69.105.25.234 1 7 44319 20070508122940
+64.12.116.75 1 1 6551 20070511201403
+71.195.114.126 2 15 152338 20070526060303
+69.236.136.191 2 10 60245 20070522111321
+70.188.232.66 3 17 167974 20070526100438
+160.33.98.118 6 23 196958 20070514082032
+66.194.6.72 2 2 13102 20070518035122
+216.145.16.235 0 1 10171 
+129.8.31.201 2 8 50870 20070522121019
+69.227.87.190 1 7 44319 20070502160629
+203.177.116.77 1 5 30705 20070530021737
+75.37.70.234 2 10 60245 20070510175257
+75.60.34.137 4 24 155272 20070525130922
+66.122.166.194 1 7 44319 20070517154346
+71.154.236.65 4 23 197254 20070522155027
+69.106.189.27 2 12 93919 20070508155947
+67.126.76.220 3 18 111143 20070509142513
+208.54.14.3 2 10 60245 20070511163312
+67.114.105.130 2 10 60245 20070509153845
+70.85.114.58 1 1 6551 20070520132221
+71.86.37.66 0 1 5304 
+69.228.15.140 3 22 158889 20070509130303
+122.162.38.145 1 8 62166 20070525225615
+70.188.233.140 3 20 201938 20070528103953
+66.194.6.95 3 3 19653 20070528051732
+64.12.116.144 0 1 11906 
+209.125.156.194 3 16 158889 20070508145010
+64.246.165.236 0 1 11906 
+75.37.125.134 2 10 60245 20070518005953
+82.165.182.106 1 1 6551 20070526182737
+207.126.232.152 1 1 6551 20070506023908
+67.114.110.169 3 17 103539 20070510194058
+12.30.148.25 4 21 86642 20070507095404
+216.145.16.237 0 1 10815 
+64.12.116.19 0 1 10815 
+12.36.112.254 0 1 5304 
+216.152.101.68 3 16 158889 20070511160646
+69.242.199.204 1 1 7640 20070528035755
+67.182.61.40 1 7 44319 20070528223947
+12.22.23.162 3 22 158889 20070514105328
+208.17.184.54 4 4 30283 20070513225102
+71.195.166.202 1 7 44319 20070509212719
+69.56.130.138 1 1 0 20070524154954
+66.194.6.81 1 1 6551 20070515223802
+143.67.110.39 1 1 3542 20070524062427
+67.181.236.31 1 1 7173 20070530183813
+131.107.0.95 3 3 20615 20070522012705
+67.182.58.211 1 7 44319 20070508200854
+67.181.232.110 1 7 44319 20070526103419
+205.240.70.10 14 62 294144 20070508115057
+72.95.221.233 7 28 226493 20070509071807
+129.241.50.235 1 1 6551 20070501184042
+66.194.6.73 2 2 13102 20070507063158
+68.127.90.170 1 7 44319 20070521111108
+64.12.116.139 0 1 10171 
+75.8.203.90 2 16 157642 20070521154018
+64.12.117.18 0 1 1708 
+67.181.129.11 1 7 44319 20070510174714
+156.63.54.144 2 11 60850 20070524071406
+65.73.232.183 0 4 48427 
+66.194.6.96 3 3 19653 20070522164103
+74.52.245.146 3 3 19653 20070528080322
+122.148.172.219 1 7 44319 20070511143025
+71.195.183.125 1 7 44319 20070513145507
+204.14.139.178 2 11 66506 20070503093014
+66.194.6.67 1 1 6551 20070503224429
+66.194.6.78 1 1 6551 20070523204408
+161.213.12.35 3 13 100470 20070524095701
+64.167.47.104 1 7 44319 20070508162803
+153.48.52.249 1 6 52545 20070510120629
+206.209.238.105 1 7 44319 20070518113021
+72.165.114.58 1 7 44319 20070514121823
+69.134.8.192 0 1 5304 
+66.122.162.214 6 45 175244 20070501115814
+64.12.117.9 0 1 43 
+195.244.16.1 1 1 6551 20070505045950
+69.226.243.231 2 15 152338 20070508201858
+165.83.133.248 3 16 158889 20070510071023
+131.107.0.96 2 2 13102 20070525184116
+74.124.192.28 1 1 9838 20070514114939
+172.191.135.119 2 13 74345 20070522221209
+67.182.114.234 9 34 282175 20070511224636
+209.218.130.66 8 42 395471 20070517100355
+67.181.232.185 1 7 44319 20070522163649
+69.237.162.78 2 8 50870 20070508203040
+153.48.52.248 1 9 99793 20070510120604
+66.194.6.97 1 1 6551 20070510114022
+220.226.17.190 0 1 5304 
+68.7.173.82 1 1 3542 20070514191427
+75.10.126.65 4 19 175589 20070509224903
+66.194.6.80 1 1 6551 20070525002832
+64.12.116.10 0 1 3125 
+63.240.97.195 3 25 201938 20070503133848
+69.250.94.174 0 1 5304 
+67.111.118.96 1 1 6551 20070501170359
+12.44.177.123 3 14 75216 20070509140841
+209.234.192.205 3 17 100995 20070530152100
+70.137.193.9 0 1 5304 
+67.114.111.175 1 7 44319 20070508214210
+66.194.6.68 1 1 6551 20070521135507
+64.246.165.130 0 1 43 
+66.194.6.94 1 1 6551 20070517010318
+131.89.192.112 1 10 118877 20070516145458
+75.31.165.76 2 15 152338 20070526010545
+67.46.24.223 2 16 170185 20070511092014
+64.34.145.198 1 1 6551 20070502094000
+71.195.178.198 1 7 44319 20070508205321
+69.106.178.221 5 22 186589 20070502153319
+67.64.184.68 0 1 5304 
+69.19.14.43 0 1 28613 
+69.227.85.24 9 63 0 20070509210252
+216.252.99.8 1 1 6551 20070526111715
+67.142.130.42 5 25 32413 20070503160419
+66.194.6.92 2 2 13102 20070526164715
+64.246.165.237 1 3 11384 20070506181612
+60.48.56.168 0 1 5304 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20070501 13 76 194897 8
+20070502 26 117 586319 8
+20070503 17 104 307408 8
+20070504 13 91 0 5
+20070505 7 37 13102 5
+20070506 31 50 233769 7
+20070507 14 86 98497 5
+20070508 38 195 984857 15
+20070509 41 225 1032578 17
+20070510 34 162 716766 14
+20070511 54 160 989465 13
+20070512 2 8 6551 2
+20070513 7 19 81153 4
+20070514 27 154 448710 10
+20070515 16 90 248437 7
+20070516 15 92 291547 7
+20070517 12 74 215063 7
+20070518 21 137 111115 6
+20070519 29 41 176145 4
+20070520 28 28 182696 3
+20070521 31 179 429822 8
+20070522 27 154 446686 13
+20070523 25 146 263156 6
+20070524 25 146 171413 9
+20070525 32 174 432099 10
+20070526 11 63 595657 7
+20070527 4 28 0 3
+20070528 8 31 273550 5
+20070530 16 94 145424 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 10
+5mn-15mn 16
+0s-30s 146
+2mn-5mn 11
+15mn-30mn 8
+30s-2mn 16
+30mn-1h 18
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/ 362 877834 204 164
+/our_team.html 45 373844 6 19
+/contact.html 25 143460 3 9
+/recruit.html 22 194100 1 7
+/myths.html 18 125152 0 2
+/training.html 18 141088 0 4
+/employmentlaw.html 16 120208 1 2
+/services.html 15 99320 6 2
+/commitment.html 12 78168 0 0
+/services2.html 11 108720 0 4
+/services_print.html 4 28072 0 0
+/1204_print.html 6 62130 0 0
+/commitment_print.html 3 6699 0 0
+// 1 6551 1 1
+/contact_print.html 3 4761 0 0
+/hrcs_print.html 6 21252 2 2
+/training2.html 10 76660 0 3
+/training_print.html 3 27447 0 1
+/incorrect.html 3 15303 0 1
+/training3.html 7 53291 0 1
+/our_team_print.html 5 19715 0 1
+/partner_benefits_print.html 3 6618 0 1
+/recruit_print.html 4 16796 0 0
+/updates.html 9 57609 1 0
+/myths_print.html 4 12824 0 0
+/partner_benefits.html 9 57402 0 1
+END_SIDER

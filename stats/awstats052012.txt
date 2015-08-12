@@ -1,0 +1,658 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 201205 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2560                
+POS_VISITOR 3653                
+POS_DAY 11490               
+POS_DOMAIN 12444               
+POS_LOGIN 12681               
+POS_ROBOT 12836               
+POS_WORMS 13735               
+POS_EMAILSENDER 13866               
+POS_EMAILRECEIVER 14009               
+POS_SESSION 14085               
+POS_SIDER 14297               
+POS_FILETYPES 16222               
+POS_OS 16487               
+POS_BROWSER 16656               
+POS_SCREENSIZE 17089               
+POS_UNKNOWNREFERER 17163               
+POS_UNKNOWNREFERERBROWSER 17719               
+POS_ORIGIN 17911               
+POS_SEREFERRALS 18062               
+POS_PAGEREFS 18253               
+POS_SEARCHWORDS 18898               
+POS_KEYWORDS 19706               
+POS_MISC 2222                
+POS_ERRORS 20013               
+POS_CLUSTER 12537               
+POS_SIDER_404 20167               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120601080810 195007 33578265 31819123708
+FirstTime 20120501003309
+LastTime 20120531201650
+LastUpdate 20140312091313 195007 4655 190351 0 0
+TotalVisits 299                 
+TotalUnique 187                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 194                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 157 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 4103 4291 3043810 26 28 27960
+1 4547 4692 2571322 16 20 25593
+2 4019 4065 1647531 23 31 242026
+3 3926 3972 1640161 18 20 11570
+4 4067 4087 1567932 15 34 161749
+5 3827 3892 1785723 65 72 239587
+6 3918 3937 1386821 79 79 45002
+7 3895 3916 1326739 38 38 27390
+8 3906 3906 1216213 27 27 16069
+9 3834 3891 2056127 42 42 48310
+10 4025 4065 1617428 47 47 98459
+11 3987 4510 3439073 44 47 43059
+12 4777 5500 5711064 92 92 53414
+13 5150 5684 7109450 43 48 39643
+14 4819 5470 9687516 63 70 2374259
+15 4510 4846 4894135 34 44 237651
+16 4522 4897 4677401 68 69 52189
+17 4532 4850 4304643 44 44 64086
+18 4473 4770 4764555 113 117 1155530
+19 4082 4290 2952577 63 72 267740
+20 4663 4955 3842089 23 25 14819
+21 4660 4724 2058530 19 19 12142
+22 3898 3969 1709060 22 23 24993
+23 3937 3937 1219493 15 15 23295
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 194
+204.14.161.155 92663 92663 28447541 20120520215951
+64.234.10.154 8346 8346 2562222 20120516102150
+173.167.241.105 155 1679 5171497 20120531163136
+99.120.36.133 96 276 1178263 20120531194030
+99.14.91.25 69 159 396572 20120514173032
+46.4.232.249 55 55 126882 20120525041721
+99.107.221.122 52 88 266695 20120518184118
+108.79.205.185 43 115 534222 20120503185947
+174.79.242.201 23 71 1130699 20120531155608
+108.79.207.76 18 18 0 20120504200318
+70.231.232.189 1 1 3172 20120506113214
+208.80.194.37 2 2 17759 20120514134117
+64.118.120.153 2 25 221430 20120518153105
+108.79.206.126 2 27 236427 20120510160930
+64.173.171.93 13 40 246723 20120528143216
+220.181.125.147 1 1 3172 20120505090211
+69.232.214.161 1 1 8716 20120523050255
+138.9.79.53 5 30 60294 20120501182952
+27.16.212.62 1 1 8582 20120518040516
+94.75.245.17 1 1 1928 20120527061630
+50.89.26.0 1 1 8582 20120521092706
+69.171.160.71 1 21 187059 20120524215722
+198.228.214.82 1 20 156498 20120531142245
+208.80.194.30 5 5 44033 20120516200425
+150.70.97.42 1 9 474009 20120517174936
+176.9.111.204 1 1 329 20120508061122
+150.70.75.158 1 1 256854 20120516160800
+198.228.210.35 0 3 50550 
+173.14.201.178 3 23 193649 20120517185414
+184.105.140.157 1 1 307 20120511063303
+69.171.178.71 0 3 139192 
+157.55.109.246 1 7 68114 20120508001724
+205.178.190.235 2 2 9229 20120505013731
+208.80.194.32 1 1 8582 20120512041811
+209.234.217.160 3 24 221022 20120512014233
+208.80.194.62 1 1 8053 20120522201626
+70.184.161.143 1 1 8582 20120520162113
+184.72.58.234 2 2 17164 20120516111704
+108.68.89.135 2 22 190184 20120509021149
+75.147.231.9 6 27 239096 20120531165847
+67.221.59.79 14 78 531299 20120504010000
+65.52.111.74 0 13 108687 
+76.250.220.77 1 21 187046 20120516123818
+166.205.137.157 1 20 156491 20120515142223
+67.181.189.27 4 26 226926 20120529145658
+188.165.230.147 2 2 17164 20120520121610
+209.234.192.194 4 29 239916 20120507135308
+174.254.208.19 2 7 7460 20120517142014
+173.12.220.140 1 20 156525 20120507120119
+220.181.126.47 1 1 8582 20120520091146
+67.181.232.33 4 23 166308 20120514065304
+216.240.130.227 1 1 8053 20120504113839
+205.178.190.236 2 2 10203 20120505013723
+63.196.118.7 9 34 262806 20120531201650
+209.234.222.140 10 62 541040 20120511093434
+67.181.161.167 1 23 220232 20120502202211
+216.218.106.138 1 1 8582 20120520142901
+8.21.4.254 1 1 8589 20120501173152
+24.56.58.37 1 1 8716 20120522155946
+173.14.202.45 6 51 482517 20120529143720
+173.12.220.137 9 54 442062 20120511130714
+63.85.198.98 1 21 187046 20120509113536
+216.152.101.228 12 38 278800 20120507194418
+97.126.140.14 3 28 239565 20120512004414
+71.116.204.7 2 43 220739 20120517141405
+76.9.78.78 4 47 197495 20120523165659
+99.110.84.139 8 8 0 20120507211308
+92.8.107.183 1 1 8582 20120520205341
+88.11.4.239 1 23 220198 20120512171047
+38.229.70.44 1 1 8582 20120510230913
+50.73.56.57 1 21 187046 20120515102140
+208.54.5.230 1 21 187080 20120507122610
+71.195.181.55 5 33 248101 20120511174640
+166.205.136.101 6 6 0 20120511172134
+70.134.88.247 7 73 440074 20120517234326
+206.162.229.42 3 28 239527 20120522171907
+150.70.172.106 0 2 17845 
+94.64.236.188 2 26 205872 20120516050757
+67.182.47.179 9 61 322622 20120511221550
+144.160.130.16 2 22 190184 20120517112613
+71.195.179.129 5 30 246828 20120516224249
+207.104.124.10 5 31 278852 20120501135443
+70.89.9.157 11 36 263004 20120522135626
+69.227.84.251 2 27 236427 20120516133715
+69.170.25.35 3 30 272751 20120502142750
+108.207.123.24 1 21 187080 20120504031115
+12.36.121.166 3 28 236781 20120531161208
+24.10.50.20 2 27 236427 20120518130407
+150.70.64.202 1 1 60087 20120516161109
+173.166.65.196 2 38 389432 20120504132212
+204.14.166.250 1 21 187046 20120518104422
+108.133.39.112 1 1 8582 20120518132747
+208.54.5.161 5 47 205130 20120524152127
+207.46.204.221 1 14 111838 20120529142258
+41.236.174.179 1 1 3151 20120522160339
+69.238.92.252 6 33 249657 20120510012716
+129.8.64.132 4 24 190814 20120510141101
+68.127.89.255 2 24 223343 20120530205710
+8.28.16.254 5 5 62090 20120507194418
+67.182.124.132 14 56 1032079 20120516155528
+204.14.167.212 1 21 187053 20120531162036
+166.205.137.215 2 21 159713 20120501173329
+99.3.119.228 2 22 190260 20120516151456
+12.200.56.130 0 8 85265 
+206.78.221.3 2 22 357139 20120514143717
+108.211.44.253 3 22 160992 20120528052133
+173.167.242.241 2 43 369074 20120516181442
+216.248.156.220 2 21 159712 20120530180648
+98.222.61.119 2 21 159565 20120513181438
+69.225.177.70 2 30 300168 20120503130532
+67.187.188.172 3 23 193726 20120528143831
+108.35.127.28 1 1 8716 20120522054154
+150.70.75.159 1 1 308782 20120516161045
+70.137.196.100 5 25 561687 20120511172059
+67.182.14.237 2 44 435243 20120530143222
+150.70.64.197 1 7 195189 20120516160922
+70.89.10.139 4 32 243767 20120507124709
+75.37.76.155 5 32 247709 20120504004647
+87.236.194.78 1 1 329 20120511021640
+98.239.113.112 10 39 253984 20120524204851
+108.237.98.26 11 31 1323801 20120524184737
+50.129.152.237 1 1 8582 20120516101637
+166.205.136.132 1 20 156525 20120507153915
+178.250.47.109 1 1 8716 20120523062707
+67.142.166.24 1 29 324290 20120518153053
+206.78.212.250 1 23 411578 20120511130111
+69.171.178.87 2 27 400843 20120504093328
+173.167.243.193 2 27 227203 20120509142424
+173.12.217.5 1 1 347 20120517173208
+97.87.2.125 6 33 249750 20120504114844
+182.68.220.214 2 23 131588 20120507071833
+70.89.10.14 2 26 205906 20120503145701
+166.205.139.61 3 22 162847 20120503175631
+67.181.161.106 12 53 1051012 20120515144504
+63.192.182.126 0 2 27667 
+64.193.93.18 2 27 12978 20120502135156
+111.13.8.28 2 2 5652 20120526233021
+78.47.220.153 7 7 64882 20120519141101
+75.37.72.191 1 21 187046 20120515001910
+205.178.190.234 6 6 29394 20120505013725
+208.80.194.36 1 1 8582 20120516142716
+67.181.220.219 4 24 194022 20120524183803
+107.1.178.65 5 30 246258 20120531141410
+50.59.13.238 1 22 217614 20120529174607
+208.80.194.28 2 2 18206 20120512083934
+98.238.211.155 3 30 240256 20120509194558
+98.224.82.110 2 24 190909 20120507131328
+207.6.202.190 1 1 8582 20120520185729
+150.70.172.105 1 10 583564 20120516162949
+76.224.228.233 1 21 187080 20120504113507
+64.203.118.25 2 29 284308 20120521113336
+64.88.164.100 2 2 17164 20120512115442
+150.70.75.38 1 8 348015 20120516161811
+12.145.58.28 9 29 2783064 20120507144843
+79.103.14.32 3 29 236910 20120501140255
+108.204.180.109 1 21 187054 20120502120935
+71.202.204.57 3 27 209017 20120531010418
+173.165.150.42 8 33 205439 20120508203207
+199.187.122.98 6 6 53401 20120519093449
+67.221.59.83 1 20 156525 20120504005650
+205.157.150.88 3 23 193350 20120502041913
+208.80.194.35 1 1 9103 20120501052034
+98.192.164.87 1 21 187059 20120528223957
+173.225.17.50 3 3 9448 20120518014428
+150.70.172.204 1 3 39904 20120530211728
+209.234.209.184 3 52 265205 20120515152408
+116.125.143.84 1 1 3151 20120521224347
+155.178.5.10 2 22 190200 20120501121854
+173.165.148.200 5 47 419857 20120508215155
+166.205.136.122 8 34 226562 20120525024046
+66.87.68.29 1 21 187053 20120531133414
+74.82.68.161 0 1 27748 
+118.160.199.61 1 1 8582 20120511134611
+209.234.192.205 2 27 236427 20120510163128
+209.129.115.2 1 22 217635 20120508141025
+69.171.160.25 1 21 183026 20120502214228
+108.230.114.40 8 37 289622 20120520152720
+67.221.59.211 3 3 921 20120525183259
+98.225.73.245 12 66 527937 20120528201337
+99.120.33.176 8 28 205091 20120524194814
+98.224.108.100 1 21 187053 20120531184623
+67.181.160.74 5 27 232894 20120521210014
+166.205.139.53 1 20 156491 20120517190639
+207.104.124.1 1 21 187080 20120504114537
+67.181.177.185 1 23 220198 20120511050824
+88.214.193.166 2 2 658 20120528030501
+122.177.247.150 1 1 3151 20120524030855
+151.138.28.142 1 22 217635 20120505152845
+64.193.95.228 3 29 247288 20120508134626
+70.52.217.39 2 2 17432 20120529163033
+205.178.190.237 3 3 17619 20120504192537
+12.220.109.2 3 17 141235 20120507113756
+173.12.220.73 8 33 252599 20120507192550
+74.82.68.160 6 32 191684 20120501141553
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20120501 54 338 1981071 13
+20120502 42 323 1796147 10
+20120503 32 247 1345271 11
+20120504 57 375 2977451 14
+20120505 16 37 305885 7
+20120506 1 1 3172 1
+20120507 66 374 5035431 15
+20120508 45 264 1511740 12
+20120509 680 884 1918500 8
+20120510 27 217 1608455 12
+20120511 66 322 2455961 16
+20120512 14 82 733105 9
+20120513 3 22 168735 2
+20120514 5888 6007 2697000 9
+20120515 14573 14868 7910907 18
+20120516 13383 13689 8539174 24
+20120517 14530 14761 5928690 14
+20120518 17550 17726 6536671 11
+20120519 19130 19130 5935114 4
+20120520 15544 15573 5108824 8
+20120521 41 228 1245867 10
+20120522 45 184 1038496 11
+20120523 27 172 543148 9
+20120524 59 267 2389081 11
+20120525 70 141 670361 5
+20120526 1 1 2826 1
+20120527 1 1 1928 1
+20120528 27 142 1067588 6
+20120529 19 178 1073559 8
+20120530 25 167 1070709 6
+20120531 61 395 2628526 13
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 102077 107116 76229393
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+wordpress 103 103 20120531183302 0
+yandex 86 50988 20120531225830 78
+spider 53 837787 20120531194257 19
+unknown 50 16550 20120531095051 50
+msnbot 42 13902 20120531065302 42
+feedfetcher\-google 39 130823 20120531134317 0
+bot[+:,\.\;\/\\-] 39 62704 20120530175431 33
+mj12bot 36 11916 20120531194419 36
+robot 22 26999 20120531233122 15
+slurp 20 156504 20120525045943 0
+exabot 6 1986 20120530203347 6
+no_user_agent 6 27489 20120523062659 3
+ia_archiver 8 2648 20120524014701 8
+googlebot 10 3310 20120530160553 10
+seznambot 6 10420 20120523115853 3
+[+:,\.\;\/\\-]bot 1 331 20120508191104 1
+python 1 3172 20120504145932 0
+legs 3 993 20120515112323 3
+surveybot 2 662 20120522052532 2
+bbot 2 662 20120523044429 2
+crawl 15 29986 20120531171041 12
+nutch 3 993 20120530191824 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 34
+5mn-15mn 17
+30s-2mn 34
+2mn-5mn 23
+15mn-30mn 5
+0s-30s 170
+30mn-1h 16
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/ 101361 32215291 237 159
+/feed/atom/ 257 4476 24 23
+/forms/ 64 197713 4 13
+/wp-login.php 61 131831 2 4
+/our-team/ 60 281112 3 21
+/contact-us/ 38 144205 6 14
+/recruiting-job-placement-services/ 30 143532 6 14
+/human-resource-compliance-support/ 23 87497 1 8
+/background-investigations/myths-facts/ 19 77320 2 7
+/wp-admin/admin.php 18 477793 0 0
+/wp-content/plugins/cforms/lib_ajax.php 2 104 0 2
+/calendar/ 7 45342 0 0
+/our-commitment-to-you/ 9 36417 1 2
+/wp-admin/ 3 26549 0 0
+/wp-admin/edit-pages.php 3 185658 0 0
+/wp-admin/user-new.php 1 16123 0 0
+/wp-admin/page.php 2 100516 0 0
+/background-investigations/services/ 11 53765 0 3
+/our-team/s_martirosyan-copy/ 4 12112 0 2
+/training-workshops/ 11 68685 0 3
+/wp-content/uploads/Order-Form7.pdf 6 1852692 2 3
+/resources/ 11 35406 0 7
+/hr-business-partner-benefits/ 8 27835 0 2
+/wp-includes/js/tinymce/wp-tinymce.php 1 79103 0 0
+/wp-admin/import.php 1 17039 0 0
+/wp-admin/load-scripts.php 6 86414 0 0
+/forms/posting-requirements-2/ 1 2560 0 0
+/wp-content/uploads/Credit-Authorization1.pdf 5 1284270 2 2
+/labor-law-updates/ 13 42991 0 0
+/wp-content/uploads/DE-34-Report-of-New-Employees2.pdf 1 645992 0 0
+/wp-content/uploads/Form-I-9-Employment-Eligibility-Verification3.pdf 1 2376662 0 0
+/forms/dfeh-185-sexual-harassment-3/ 1 2584 0 0
+/wp-content/uploads/DFEH-185-Sexual-Harassment2.pdf 1 444477 0 1
+/forms/de-34-report-of-new-employees-4/ 1 2595 0 0
+/wp-content/uploads/Posting-Requirements.doc 1 26946 0 0
+/background-investigations/ 12 49145 4 5
+/wp-admin/admin-ajax.php 1 240 0 0
+/rsvp-form/ 3 14311 1 1
+/wp-admin/index-extra.php 3 649 0 0
+/Microsoft-Server-ActiveSync 6 0 1 1
+/wp-content/uploads/Application-Authorization-Form.pdf 7 420609 3 2
+/forms/form-i-9-employment-eligibility-verification-4/ 2 15416 0 0
+/wp-admin/edit-comments.php 1 82938 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 1417 2738775 0 0
+png 38 54876 0 0
+pdf 21 7024702 0 0
+swf 218 4314582 0 0
+php 100 1178408 0 0
+html 101949 33586859 0 0
+jpg 1574 12053020 0 0
+js 1436 14278268 0 0
+doc 1 26946 0 0
+Unknown 6 0 0 0
+gif 356 972957 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+linuxsuse 2
+winlong 234
+winxp 1753
+win2000 38
+winnt 1
+linux 200
+macosx 1020
+winunknown 29
+win2003 58
+Unknown 101339
+win2008 2442
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 28
+msie6.0 93
+firefox5.0 1
+firefox3.6 57
+chrome 580
+curl 4
+firefox2.0.0.12 7
+msie8.0 1463
+msie7.0 310
+firefox3.6.27 1
+wget 6
+firefox2.0.0.2 1
+msie9.0 1670
+Unknown 101272
+firefox11.0 70
+firefox13.0 21
+firefox3.5.2 2
+firefox7.0.1 1
+msie5.5 1
+firefox12.0 240
+firefox3.5.5 23
+mozilla 41
+firefox1.5.0.10 1
+firefox3.0.6 1
+firefox3.6.3 3
+firefox2.0.0.16 4
+msie 1
+firefox10.0.2 32
+safari 1210
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Radar_Website_Monitor 20120520215951
+Mozilla/5.001_(windows;_U;_NT4.0;_en-us)_Gecko/25250101 20120512115442
+Apple-iPhone3C1/902.206 20120511172134
+Mozilla/5.0_(rv:1.3;_BREW_3.1.5;_en)/400x240_sam-r710_like_Gecko/20080531_NetFront/3.5 20120504093504
+Mozilla/4.0_(compatible;) 20120529144447
+Mozilla/5.0_(BlackBerry;_U;_BlackBerry_9780;_en-US)_AppleWebKit/534.8__(KHTML,_like_Gecko)_Version/6.0.0.448_Mobile_Safari/534.8_ 20120501141600
+Apple-PubSub/65.28 20120531194030
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Radar_Website_Monitor 20120520215951
+Apple-iPhone3C1/902.206 20120511172134
+Apple-PubSub/65.28 20120531194030
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 101585 101622
+From1 0 0
+From2 113 113
+From3 27 27
+From4 352 5354
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 108 108
+search 1 1
+yandex 1 1
+yahoo 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://www.bing.com/search 13 13
+http://www.orangeask.com 3 3
+http://www.bing.com/local/details.aspx 2 2
+http://www.hr-guide.com/Selection/Background_Checking_Screening.htm 2 2
+http://www.linkedin.com/profile/view 1 1
+http://www.semrush.com/info/sierrahr.com 1 1
+http://start.toshiba.com/search/index.php 1 1
+http://www.maderachamber.com/index.php 1 1
+http://www.whorush.com/search/ 1 1
+http://www.linkedin.com/company/sierra-hr-partners-inc. 1 1
+http://www.indeed.com/cmp/Sierra-HR-Partners 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 25
+sierra+hr+partners 25
+sierra+hr+partners+fresno 20
+sierra+hr 13
+sierra+hr+partners+fresno+ca 4
+sierra+hr+fresno 4
+sierra+partners 3
+fresno+ca+sierra+human+resources+partnership 3
+sierra+hr+partners+in+fresno+ca 3
+sierra+hr+fresno+ca 2
+employment+agencies+fresno 2
+sierra+hr+partners+inc.+mass 1
+http+//sierrahr.com/ 1
+sierra+hr+partners+inc+fresno 1
+brenda+budke+sierra+hr 1
+sierra+hr+parnters 1
+sierra+human+resources 1
+sierrahr.com 1
+rra+hr+partners 1
+sierra+hr+partners+inc. 1
+sierra+hr+services 1
+sierra+chicago+human+resources 1
+sierra+hr+partners+inc+fresno+ca 1
+sierra+partners+in+fresno+ca 1
+hr+sierra+fresno 1
+human+resource+consultants+fresno 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 25
+sierra 88
+hr 80
+partners 61
+fresno 43
+ca 14
+human 6
+resources 5
+in 4
+partnership 3
+employment 2
+budke 1
+consultants 1
+http 1
+mass 1
+rra 1
+chicago 1
+sierrahr.com 1
+inc 2
+brenda 1
+agencies 2
+services 1
+parnters 1
+//sierrahr.com/ 1
+resource 1
+inc. 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 4 4372
+302 9 3433
+206 31 3447545
+500 90 27195
+404 66 254170
+301 370 178892
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 18
+/sitemap.xml 2 -
+/1204_print.html 2 http://sierrahr.com/labor-law-updates/
+/our-team/wp-includes/js/thickbox/loadingAnimation.gif 4 http://sierrahr.com/our-team/s_martirosyan-copy/
+/admin/spaw/spacer.gif 1 -
+/notify-Coaching_Message_NonRated 1 http://www.google.com/url
+/wp-includes/js/thickbox/+imgLoader.src+ 2 http://sierrahr.com/wp-includes/js/thickbox/+imgLoader.src+
+/forms/wp-includes/js/thickbox/loadingAnimation.gif 4 http://sierrahr.com/forms/dfeh-185-sexual-harassment-3/
+/admin-wp 1 -
+/background-investigations/wp-includes/js/thickbox/loadingAnimation.gif 28 http://sierrahr.com/background-investigations/services/
+/verify-Coaching_Message_NonRated 1 http://sierrahr.com/notify-Coaching_Message_NonRated
+/wp-content/plugins/events-calendar/js/+s.src+ 2 http://sierrahr.com/wp-content/plugins/events-calendar/js/+s.src+
+/autodiscover/autodiscover.xml 2 -
+/Autodiscover/Autodiscover.xml 9 -
+/spaw2/spacer.gif 1 -
+/accepted-Coaching_Message_NonRated 2 http://sierrahr.com/notify-Coaching_Message_NonRated
+/wp-includes/js/thickbox/+urlNoQuery%5b0%5d+ 2 http://sierrahr.com/wp-includes/js/thickbox/+urlNoQuery%5b0%5d+
+/mambots/editors/wysiwygpro/document.php 1 -
+/admin/spaw2/spacer.gif 1 -
+END_SIDER_404
